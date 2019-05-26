@@ -1,16 +1,11 @@
-# scientific-paper-pros-cons
+# Annotation of Pros/Cons in Scientific Papers
 
-ACL anthologyのイントロダクションに利点・欠点をアノテーションしたデータ．	
+This repository contains a corpus of papers annotated with pros/cons of technological expressions. 
+The format is in the standard BIO format.
+See the following publications for further details:
 
+- Hono Shirai, Naoya Inoue, Jun Suzuki and Kentaro Inui. Annotating with Pros and Cons of Technologies in Computer Science Papers. To appear in Proceedings of First Workshop on Extracting Structured Knowledge from Scientific Publications (ESSP), June 2019.
+- 白井穂乃, 井之上直也, 鈴木潤, 乾健太郎. 計算機科学論文における手法の利点・欠点に着目したデータの構築と分析. 言語処理学会第25回年次大会論文集, 4 pages, March 2019.
 
-[NLP2019](http://www.anlp.jp/nlp2019/index.html)にて，以下の題目で発表予定．
-
-
-「計算機科学論文における手法の利点・欠点に着目したデータの構築と分析」
-```
-近年，論文の出版数が急増し，人手による論文からの情報収集に限界が来ている．
- そこで本研究では，計算機科学の論文中に述べられている手法とその利点・欠点の自動抽出を目的として，注釈付きコーパスの構築，およびベースラインモデルによるタスクの性質の検証を行った．
- 具体的には，論文への利点・欠点のアノテーションスキームを定義し，人手によるアノテーション実験を行った結果について報告する．
- また，自動抽出タスクとしての難しさを検証するため，アノテーション実験で構築したデータを用いて，利点・欠点の自動抽出モデルを構築し，その実験結果について報告する．
- ```
+Due to copyright issues, not all papers mentioned in the paper are contained in this repository.
 
